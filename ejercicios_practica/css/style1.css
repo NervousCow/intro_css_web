@@ -5,3 +5,47 @@
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
+body {
+  background-color: crimson;
+  width: 100%;
+}
+
+article {
+  width: fit-content;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #222435;
+}
+
+.price {
+  color: #edf2f4;
+  font-size: 25px;
+}
+
+.discount {
+  color: #2ec4b6;
+  font-size: 16px;
+}
+
+img {
+  background-color: #343c8a;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+div {
+  background-color: forestgreen;
+  color: blanchedalmond;
+  margin: -5px;
+  margin-top: 5px;
+  padding: 15px;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 20px;
+}
+
+div:hover {
+  background-color: green;
+  font-weight: bold;
+}
